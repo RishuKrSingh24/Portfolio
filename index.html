@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Rishu</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="/portfolio/pf.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Rishu</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>From Code to Creation</p>
+            <p>Dedicated to mastering the art of coding and solving complex problems to make a tangible impact in the tech industry.</p>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/rishukrsingh/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/RishuKrSingh-coder"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/rishuksingh"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/rishukr.singh?igsh=MWc3ajIxeHZ1MXF4bw=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+            <a href="#contact" class="btn">Hire Me!</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Designer</h4>
+                    <p>"Building Beautiful, Responsive Websites"<br>
+                        As a passionate web developer, I create clean, modern websites that are not only visually appealing but also responsive and user-friendly. Let’s bring your digital ideas to life!</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI/UX Designer</h4>
+                    <p>"Designing Engaging, User-Friendly Experiences"<br>
+                        As a fresh UI/UX developer, I focus on creating intuitive, visually appealing designs that enhance user satisfaction. Let’s turn your ideas into smooth, interactive experiences!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="/portfolio/HTML5.jpg" alt="HTML5">
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill">
+            <img src="/portfolio/CSS.jpg" alt="CSS3">
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill">
+            <img src="/portfolio/js.jpg" alt="JavaScript">
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill">
+            <img src="/portfolio/Figma.jpg" alt="Figma">
+            <h3>Figma</h3>
+          </div>
+          <div class="skill">
+            <img src="/portfolio/python.jpg" alt="Python">
+            <h3>Python</h3>
+          </div>
+          <div class="skill">
+            <img src="/portfolio/Github.jpg" alt="Github">
+            <h3>Github</h3>
+          </div>
+        </div>
+      </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2028
+                    </div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p>Indian Institute of Technology Patna<br><br>
+                        Bachelor's degree, Computer Science </p>
+                    </div>   
+                
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary School</h3>
+                        <p>Glorious Public School, New Delhi</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022
+                    </div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>Don Bosco Higher Secondary School, Nagaland</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f600347f-ba72-41ee-8c25-bed37b17a892">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="Number" name="Number" placeholder="Phone Number" required>
+                <input type="text" name="Subject" placeholder="Subject">
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rishukrsingh/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/RishuKrSingh-coder"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/rishuksingh"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/rishukr.singh?igsh=MWc3ajIxeHZ1MXF4bw=="><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policies</a></li>
+        </ul>
+        <p class="copyright">
+            © Rishu Kr. Singh | All Right Reserved
+        </p>
+    </footer>
+
+
+    <!-- wow animation -->
+    <script src="app.js"></script>
+</body>
+</html>
